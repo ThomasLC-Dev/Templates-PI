@@ -1,5 +1,5 @@
 name: default_spring
 description: Default Spring template
 parameters:
-  - param1_S: value1_S
-  - param2_S: value2_S
+  param1_S: value1_S
+  param2_S: value2_S

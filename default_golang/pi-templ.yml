@@ -1,5 +1,5 @@
 name: default_golang
 description: Default Golang template
 parameters:
-  - param1_G: value1_G
-  - param2_G: value2_G
+  param1_G: value1_G
+  param2_G: value2_G
