@@ -1,0 +1,5 @@
+name: default_angular
+description: Default Angular template
+parameters:
+  - param1_A: value1_A
+  - param2_A: value2_A

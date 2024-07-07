@@ -1,0 +1,5 @@
+name: default_vue
+description: Default Vue template
+parameters:
+  - param1_V: value1_V
+  - param2_V: value2_V
