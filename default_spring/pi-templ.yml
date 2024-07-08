@@ -1,5 +1,39 @@
 name: default_spring
 description: Default Spring template
-parameters:
-  param1_S: value1_S
-  param2_S: value2_S
+files:
+  - name: controller
+    parameters:
+      - name: name
+        value: string
+      - name: haveGetAll
+        value: boolean
+      - name: haveGet
+        value: boolean
+      - name: havePost
+        value: boolean
+      - name: havePut
+        value: boolean
+      - name: haveDelete
+        value: boolean
+  - name: model
+    parameters:
+      - name: model
+        value: string
+      - name: name
+        value: string
+  - name: dto
+    parameters:
+      - name: name
+        value: string
+  - name: repository
+    parameters:
+      - name: name
+        value: string
+  - name: serviceImpl
+    parameters:
+      - name: name
+        value: string
+  - name: service
+    parameters:
+      - name: name
+        value: string

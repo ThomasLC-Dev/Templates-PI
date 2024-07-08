@@ -1,5 +1,11 @@
 name: default_golang
 description: Default Golang template
-parameters:
-  param1_G: value1_G
-  param2_G: value2_G
+files:
+  - name: appCmd
+    parameters:
+      - name: testNbrLoop
+        value: array[number]
+  - name: pkgTest
+    parameters:
+      - name: testLoop
+        value: array[{name:string, paramName:string, paramType:string}]

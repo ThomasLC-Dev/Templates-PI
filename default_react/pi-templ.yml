@@ -1,5 +1,2 @@
 name: default_react
 description: Default React template
-parameters:
-  param1_R: value1_R
-  param2_R: value2_R
